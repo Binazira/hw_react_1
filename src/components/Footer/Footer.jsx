@@ -6,7 +6,7 @@ const Footer = (props) => {
   props.getArr(arr);
   return (
     <div>
-      <Navbar>
+      <Navbar bg="info" style={{ marginTop: "30px" }}>
         <Container>
           <Navbar.Brand href="#home">Footer </Navbar.Brand>
           <Navbar.Toggle />
